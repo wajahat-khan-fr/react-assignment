@@ -4,8 +4,8 @@
   "description": "Pulse Platform - Market Monitoring Assessment Backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node init && node server.js",
+    "dev": "node init && node server.js"
   },
   "keywords": [
     "market",
